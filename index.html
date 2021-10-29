@@ -8,23 +8,46 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="tailwind.css">
   <link rel="stylesheet" href="assets/css/output.css">
+  <!-- font-family: 'Rubik', sans-serif;  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap" rel="stylesheet">   
 </head>
-<body>
-  <header class="flex container justify-between m-0 h-32 bg-green-400 items-center">
+<body class="overflow-x-hidden">
+  <header class="flex container justify-evenly flex-col m-0 h-36 max-w-full bg-green-400 items-center">
+    <!-- page title -->
     <div>
-      <h1 class="font-sans text-4xl text-white ">Tailwind Nutrition</h1>
+      <h1 class="font-sans font-bold text-4xl text-white">Tailwind Nutrition</h1>
     </div>
+    <!-- navigation -->
     <nav>
-      <ul class="flex font-sans text-xl text-white">
-        <li class="mx-3 p-2 hover:bg-green-200 rounded"><a href="#"> More</a></li>
-        <li class="mx-3 p-2 hover:bg-green-200 rounded"><a href="#">Author</a></li>
-        <li class="mx-3 p-2 hover:bg-green-200 rounded"><a href="#">Recipes</a></li>
+      <ul class="flex font-sans text-xl text-white bg-center">
+        <li class="mx-3 p-2 hover:bg-green-300 rounded hover:text-gray-900"><a href="#"> More</a></li>
+        <li class="mx-3 p-2 hover:bg-green-300 rounded hover:text-gray-900"><a href="#">Author</a></li>
+        <li class="mx-3 p-2 hover:bg-green-300 rounded hover:text-gray-900"><a href="#">Recipes</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-
-
+    <!-- about nutrition -->
+  <main class="flex flex-col max-w-screen-lg m-auto ">
+    <h2 class="text-center my-20 text-5xl font-bold"><em>"Nutrition is the study of nutrients in food, how the body uses them, and the relationship between diet, health, and disease"</em></h2>
+      <p>Medically reviewed by: <em><a class="hover:text-green-500" href="https://www.medicalnewstoday.com/reviewers/natalie-butler-rd-ld">Natalie Butler, R.D., L.D. — Written by Tim Newman on January 9, 2020</a></em></p>
+      <!-- Nutrition in general -->
+      <section class="flex max-w-screen-lg m-auto"> 
+        <p class="my-5 max-w-5xl self-center text-2xl text-justify px-8">Nutritionists use ideas from molecular biology, biochemistry, and genetics to understand how nutrients affect the human body. Nutrition also focuses on how people can use dietary choices to reduce the risk of disease, what happens if a person has too much or too little of a nutrient, and how allergies work. Nutrients provide nourishment. Proteins, carbohydrates, fat, vitamins, minerals, fiber, and water are all nutrients. If people do not have the right balance of nutrients in their diet, their risk of developing certain health conditions increases. This article will explain the different nutrients a person needs and why. It will also look at the role of the dietitian and the nutritionist.</p>
+          <img class="max-h-90px max-w-md rounded-xl shadow-sm" src="https://images.pexels.com/photos/1028599/pexels-photo-1028599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="healthy food bowl">
+      </section> 
+      <!-- Vitamins -->
+      <article class="flex flex-col items-center m-20 border-2 py-20 border-green-400 rounded-xl">
+        <img class=" max-w-screen-md rounded-xl shadow-sm" src="https://images.pexels.com/photos/4551832/pexels-photo-4551832.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="healthy meal in a restaurant">
+          <h3 class="m-20 text-4xl font-bold">Vitamins</h3>
+          <p class="m-30 max-w-screen-md text-justify  text-2xl" >People need small amounts of various vitamins. Some of these, such as vitamin C, are also antioxidants. This means they help protect cells from damage by removing toxic molecules, known as free radicals, from the body. </p>
+            <ul class="m-30 max-w-screen-md text-center text-2xl my-8">
+              <li class="text-3xl"><strong>Vitamins can be:</strong></li>
+              <li class="py-8">Water-soluble: The eight B vitamins and vitamin C</li>
+              <li >Fat-soluble: Vitamins A, D, E, and K</li>
+            </ul>  
+      </article>
   </main>
   <footer>
 
