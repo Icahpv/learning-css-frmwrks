@@ -14,6 +14,7 @@ I think Tailwind is really interesting, I have seen people use it on youtube, al
 
 - Although I enjoy this framework, I believe there's much more to learn, I'm having a hard time understanding how to use the **tailwind.config.js**: module exports. I believe there's a much better way to do this page than how I do it.
 - Also had problems, importing fonts. I tried to follow people's advise from stackoverflow and tailwindcss itself, but it does not work.
+- layout optimization, I could not get my content to align properly when I go to mobile view.
 
 ### Assets
 
