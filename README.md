@@ -12,11 +12,14 @@ I think Tailwind is really interesting, I have seen people use it on youtube, al
 
 ### Problems
 
+- Although I enjoy this framework, I believe there's much more to learn, I'm having a hard time understanding how to use the **tailwind.config.js**: module exports. I believe there's a much better way to do this page than how I do it.
+- Also had problems, importing fonts. I tried to follow people's advise from stackoverflow and tailwindcss itself, but it does not work.
 
 ### Assets
 
 - [Photo](https://www.pexels.com/photo/apricot-fruits-on-bowl-1028599/) by [Lum3n](https://www.pexels.com/@lum3n-44775) from [Pexels](https://www.pexels.com/)
 - [Photo](https://www.pexels.com/photo/vegetable-salad-served-on-table-with-beef-steak-in-restaurant-4551832/) by [ROMAN ODINTSOV](https://www.pexels.com/@roman-odintsov) from [Pexels](https://www.pexels.com/)
+- [Font](https://fonts.google.com/specimen/Rubik) by [Google Fonts](https://fonts.google.com/)
 
 
 ### Attributions
